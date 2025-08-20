@@ -135,7 +135,7 @@ public class RedisManager
 
         tran.SortedSetAddAsync(RANKING_KEY, name, score);
 
-        await tran.ExecuteAsync();
+        tran.Execute();
     }
 
     /// <summary>

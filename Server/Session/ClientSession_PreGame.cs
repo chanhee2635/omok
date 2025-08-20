@@ -1,19 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Runtime.Serialization;
-using System.Text;
 using System.Threading.Tasks;
-using Google.Protobuf;
 using Google.Protobuf.Protocol;
 using Microsoft.EntityFrameworkCore;
 using Server.DB;
 using Server.Game;
 using ServerCore;
-using VirusWarGameServer;
 
 namespace Server
 {
@@ -33,13 +25,12 @@ namespace Server
         public async Task HandleLogin(C_Login loginPacket)
         {
             // 구글 idToken 인증
-            //string uid = await FirebaseGoogleAuthenticator.Instance.VerifyFirebaseIdTokenAsync(loginPacket.GoogleId);
-            //if (uid == null)
-            //{
-            //    Console.WriteLine($"잘못된 토큰 정보로 로그인을 시도했습니다.");
-            //    return;
-            //}
-            string uid = loginPacket.GoogleId;
+            string uid = await FirebaseGoogleAuthenticator.Instance.VerifyFirebaseIdTokenAsync(loginPacket.GoogleId);
+            if (uid == null)
+            {
+                Console.WriteLine($"잘못된 토큰 정보로 로그인을 시도했습니다.");
+                return;
+            }
 
             using (AppDbContext db =  new AppDbContext())
             {
@@ -92,9 +83,10 @@ namespace Server
                 resPacket.Info = playerInfo;
                 Send(resPacket);
 
-                // 랭킹 데이터 추가
-                //await RankingManager.Instance.UpdateRanking(this);
             }
+
+            // 랭킹 데이터 업데이트
+            RankingManager.Instance.UpdateRanking(this);
         }
     }
 }

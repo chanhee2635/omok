@@ -13,6 +13,9 @@ namespace Server.Game
 
         public static RankingManager Instance { get {  return _instance; } }
 
+        /// <summary>
+        /// 자신을 포함한 모든 랭킹 데이터를 가져온다.
+        /// </summary>
         public async void GetRankingData(ClientSession session)
         {
             try
@@ -34,6 +37,9 @@ namespace Server.Game
             }
         }
 
+        /// <summary>
+        /// 랭킹 데이터를 업데이트한다.
+        /// </summary>
         public async void UpdateRanking(ClientSession session, string beforeName = null)
         {
             try
