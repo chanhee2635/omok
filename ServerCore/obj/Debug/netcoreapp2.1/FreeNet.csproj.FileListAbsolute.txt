@@ -1,0 +1,5 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netcoreapp2.1\FreeNet.csproj.AssemblyReference.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netcoreapp2.1\FreeNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netcoreapp2.1\FreeNet.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netcoreapp2.1\FreeNet.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netcoreapp2.1\FreeNet.csproj.CoreCompileInputs.cache

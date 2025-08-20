@@ -1,0 +1,14 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\bin\Debug\net8.0\PacketGenerator.exe
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\bin\Debug\net8.0\PacketGenerator.deps.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\bin\Debug\net8.0\PacketGenerator.runtimeconfig.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\bin\Debug\net8.0\PacketGenerator.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\bin\Debug\net8.0\PacketGenerator.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\refint\PacketGenerator.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\PacketGenerator.genruntimeconfig.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Omok\PacketGenerator\obj\Debug\net8.0\ref\PacketGenerator.dll

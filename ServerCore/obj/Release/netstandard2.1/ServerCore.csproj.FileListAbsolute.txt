@@ -1,0 +1,9 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\bin\Release\netstandard2.1\ServerCore.deps.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\bin\Release\netstandard2.1\ServerCore.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\bin\Release\netstandard2.1\ServerCore.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\ServerCore\obj\Release\netstandard2.1\ServerCore.pdb

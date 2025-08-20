@@ -1,0 +1,9 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1\ServerCore.deps.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1\ServerCore.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1\ServerCore.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\obj\ServerCore\release\ServerCore.pdb

@@ -1,0 +1,9 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.csproj.CoreCompileInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\netstandard2.1\FreeNet.deps.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\netstandard2.1\FreeNet.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\netstandard2.1\FreeNet.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\netstandard2.1\FreeNet.pdb

@@ -1,0 +1,5 @@
+{
+  "dataPath": "../../../../../Client/Assets/Resources/Data",
+  "connectionString": "Data Source=(localdb)\\ProjectModels;Initial Catalog=OmokDB;Integrated Security=True;Connect Timeout=30;Encrypt=False",
+  "googlePath": "../../../../../Common/omoki-d1063-firebase-adminsdk-fbsvc-971b7fb4eb.json"
+}

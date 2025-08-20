@@ -1,0 +1,4 @@
+{
+  "dataPath": "../../../../../Client/Assets/Resources/Data",
+  "connectionString": "Data Source=(localdb)\\ProjectModels;Initial Catalog=OmokDB;Integrated Security=True;Connect Timeout=30;Encrypt=False"
+}

@@ -1,0 +1,11 @@
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.AssemblyInfoInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.AssemblyInfo.cs
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.csproj.CoreCompileInputs.cache
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\net8.0\FreeNet.deps.json
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\net8.0\FreeNet.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\bin\Debug\net8.0\FreeNet.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\refint\FreeNet.dll
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\FreeNet.pdb
+C:\Users\chanhee\Desktop\devCode\Unity\Omok\FreeNet\obj\Debug\net8.0\ref\FreeNet.dll

@@ -1,0 +1,119 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Sequential: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:ArtifactsPath="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1/" /p:OutDir="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1/" /p:OutputPath="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1/" /p:PublishDir="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\publish/" in C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1
+// command took 2.32 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:ArtifactsPath="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1/" /p:OutDir="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1/" /p:OutputPath="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1/" /p:PublishDir="C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\publish/" --output "C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1/" in C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1
+// command took 7.3 sec and exited with 0
+// ***** Done, took 00:00:09 (9.75 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkTest.BenchPing: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: 고성능)
+// **************************
+// Benchmark: BenchmarkTest.BenchPing: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet Server-DefaultJob-1.dll --anonymousPipes 2668 2488 --benchmarkName Server.BenchmarkTest.BenchPing --job Default --benchmarkId 0 in C:\Users\chanhee\Desktop\devCode\Unity\Omok\Server\Server\bin\Release\netcoreapp3.1\Server-DefaultJob-1\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.15.2
+// Runtime=.NET Core 3.1.32 (CoreCLR 4.700.22.55902, CoreFX 4.700.22.56512), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 299300.00 ns, 299.3000 us/op
+WorkloadJitting  1: 1 op, 1237900.00 ns, 1.2379 ms/op
+
+OverheadJitting  2: 16 op, 246600.00 ns, 15.4125 us/op
+WorkloadJitting  2: 16 op, 227300.00 ns, 14.2063 us/op
+
+WorkloadPilot    1: 16 op, 7500.00 ns, 468.7500 ns/op
+WorkloadPilot    2: 32 op, 6700.00 ns, 209.3750 ns/op
+WorkloadPilot    3: 64 op, 12200.00 ns, 190.6250 ns/op
+WorkloadPilot    4: 128 op, 24600.00 ns, 192.1875 ns/op
+WorkloadPilot    5: 256 op, 41800.00 ns, 163.2813 ns/op
+WorkloadPilot    6: 512 op, 93800.00 ns, 183.2031 ns/op
+WorkloadPilot    7: 1024 op, 150400.00 ns, 146.8750 ns/op
+WorkloadPilot    8: 2048 op, 349600.00 ns, 170.7031 ns/op
+WorkloadPilot    9: 4096 op, 888000.00 ns, 216.7969 ns/op
+WorkloadPilot   10: 8192 op, 1403800.00 ns, 171.3623 ns/op
+WorkloadPilot   11: 16384 op, 3013300.00 ns, 183.9172 ns/op
+WorkloadPilot   12: 32768 op, 13075800.00 ns, 399.0417 ns/op
+WorkloadPilot   13: 65536 op, 39452300.00 ns, 601.9943 ns/op
+WorkloadPilot   14: 131072 op, 81142400.00 ns, 619.0674 ns/op
+WorkloadPilot   15: 262144 op, 184220800.00 ns, 702.7466 ns/op
+WorkloadPilot   16: 524288 op, 357995600.00 ns, 682.8224 ns/op
+WorkloadPilot   17: 1048576 op, 672777600.00 ns, 641.6107 ns/op
+
+OverheadWarmup   1: 1048576 op, 1804900.00 ns, 1.7213 ns/op
+OverheadWarmup   2: 1048576 op, 1834200.00 ns, 1.7492 ns/op
+OverheadWarmup   3: 1048576 op, 1808500.00 ns, 1.7247 ns/op
+OverheadWarmup   4: 1048576 op, 1880600.00 ns, 1.7935 ns/op
+OverheadWarmup   5: 1048576 op, 1753500.00 ns, 1.6723 ns/op
+
+OverheadActual   1: 1048576 op, 1748800.00 ns, 1.6678 ns/op
+OverheadActual   2: 1048576 op, 1749600.00 ns, 1.6685 ns/op
+OverheadActual   3: 1048576 op, 1805200.00 ns, 1.7216 ns/op
+OverheadActual   4: 1048576 op, 1924200.00 ns, 1.8351 ns/op
+OverheadActual   5: 1048576 op, 1811800.00 ns, 1.7279 ns/op
+OverheadActual   6: 1048576 op, 1814200.00 ns, 1.7302 ns/op
+OverheadActual   7: 1048576 op, 1891600.00 ns, 1.8040 ns/op
+OverheadActual   8: 1048576 op, 1972500.00 ns, 1.8811 ns/op
+OverheadActual   9: 1048576 op, 1982200.00 ns, 1.8904 ns/op
+OverheadActual  10: 1048576 op, 2039400.00 ns, 1.9449 ns/op
+OverheadActual  11: 1048576 op, 2032300.00 ns, 1.9382 ns/op
+OverheadActual  12: 1048576 op, 2131600.00 ns, 2.0329 ns/op
+OverheadActual  13: 1048576 op, 2185900.00 ns, 2.0846 ns/op
+OverheadActual  14: 1048576 op, 2186000.00 ns, 2.0847 ns/op
+OverheadActual  15: 1048576 op, 2229800.00 ns, 2.1265 ns/op
+OverheadActual  16: 1048576 op, 2188300.00 ns, 2.0869 ns/op
+OverheadActual  17: 1048576 op, 2192900.00 ns, 2.0913 ns/op
+OverheadActual  18: 1048576 op, 2132100.00 ns, 2.0333 ns/op
+OverheadActual  19: 1048576 op, 2040200.00 ns, 1.9457 ns/op
+OverheadActual  20: 1048576 op, 2039800.00 ns, 1.9453 ns/op
+
+OverheadWarmup   1: 1048576 op, 2046700.00 ns, 1.9519 ns/op
+OverheadWarmup   2: 1048576 op, 1986000.00 ns, 1.8940 ns/op
+OverheadWarmup   3: 1048576 op, 1994000.00 ns, 1.9016 ns/op
+OverheadWarmup   4: 1048576 op, 1907000.00 ns, 1.8187 ns/op
+OverheadWarmup   5: 1048576 op, 1948600.00 ns, 1.8583 ns/op
+OverheadWarmup   6: 1048576 op, 1913600.00 ns, 1.8250 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 1048576 op, 664095100.00 ns, 633.3304 ns/op
+WorkloadActual   2: 1048576 op, 649422600.00 ns, 619.3377 ns/op
+WorkloadActual   3: 1048576 op, 707891200.00 ns, 675.0977 ns/op
+WorkloadActual   4: 1048576 op, 667950500.00 ns, 637.0072 ns/op
+WorkloadActual   5: 1048576 op, 657922600.00 ns, 627.4439 ns/op
+WorkloadActual   6: 1048576 op, 711076500.00 ns, 678.1354 ns/op
+WorkloadActual   7: 1048576 op, 612679300.00 ns, 584.2965 ns/op
+WorkloadActual   8: 1048576 op, 632809300.00 ns, 603.4940 ns/op
+WorkloadActual   9: 1048576 op, 623463900.00 ns, 594.5815 ns/op
+WorkloadActual  10: 1048576 op, 656521500.00 ns, 626.1077 ns/op
+WorkloadActual  11: 1048576 op, 679838200.00 ns, 648.3442 ns/op
+WorkloadActual  12: 1048576 op, 725393400.00 ns, 691.7891 ns/op
+WorkloadActual  13: 1048576 op, 699895200.00 ns, 667.4721 ns/op
+WorkloadActual  14: 1048576 op, 704793600.00 ns, 672.1436 ns/op
+WorkloadActual  15: 1048576 op, 668953500.00 ns, 637.9638 ns/op
+WorkloadActual  16: 1048576 op, 703441500.00 ns, 670.8541 ns/op
+WorkloadActual  17: 1048576 op, 728529600.00 ns, 694.7800 ns/op
+WorkloadActual  18: 1048576 op, 805153700.00 ns, 767.8544 ns/op
+WorkloadActual  19: 1048576 op, 700015300.00 ns, 667.5866 ns/op
+WorkloadActual  20: 1048576 op, 668211100.00 ns, 637.2558 ns/op
+WorkloadActual  21: 1048576 op, 717204100.00 ns, 683.9791 ns/op
+WorkloadActual  22: 1048576 op, 692147200.00 ns, 660.0830 ns/op
+WorkloadActual  23: 1048576 op, 710062300.00 ns, 677.1682 ns/op
+WorkloadActual  24: 1048576 op, 705413200.00 ns, 672.7345 ns/op
+WorkloadActual  25: 1048576 op, 729566900.00 ns, 695.7692 ns/op
+WorkloadActual  26: 1048576 op, 653331500.00 ns, 623.0655 ns/op
+WorkloadActual  27: 1048576 op, 641042300.00 ns, 611.3456 ns/op
+WorkloadActual  28: 1048576 op, 715160800.00 ns, 682.0305 ns/op
+WorkloadActual  29: 1048576 op, 726459100.00 ns, 692.8054 ns/op
+WorkloadActual  30: 1048576 op, 724133400.00 ns, 690.5874 ns/op
+WorkloadActual  31: 1048576 op, 780139100.00 ns, 743.9986 ns/op
+WorkloadActual  32: 1048576 op, 716303400.00 ns, 683.1202 ns/op
+WorkloadActual  33: 1048576 op, 764698700.00 ns
